@@ -1,3 +1,5 @@
+## working bas code 
+
 import csv
 import requests
 from bs4 import BeautifulSoup
@@ -6,7 +8,7 @@ from random import randint
 #defin url
 url = 'https://www.anime-planet.com/manga/all?sort=title&order=asc&page={}'
 
-# get an drop nam in the csv file 
+### get an drop nam in the csv file 
 def getmanga(url):
     # get alle the page url of the web sit 
     for link in [url.format(page) for page in range(1, 1193)]:

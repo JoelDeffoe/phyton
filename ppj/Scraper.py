@@ -31,3 +31,6 @@ print(main_name)
 # csv_writer = csv.writer(open(filename, 'w'))
 
 if __name__ == "__main__":
+
+    # get the best way to get the ping and
+    # add  a new databas mangos db i gest

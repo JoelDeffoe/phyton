@@ -20,7 +20,7 @@ for year_url in years_url:
         '&sort=num_votes,desc&page=' + page, headers = headers)
 
         # Pause the loop
-        sleep(randint(8,15))
+        sleep(randint(8, 15))
 
         # Monitor the requests
         requests += 1

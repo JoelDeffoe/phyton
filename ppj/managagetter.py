@@ -29,8 +29,11 @@ def getmanga(url):
             # manga image
             # image = n.img
 
-            writer.writerow(name, description)
+            writer.writerow(description)
             print(description)
+
+            #gets multipler trece end gettin a goode databas 
+            # 
 
 
 if __name__ == "__main__":
